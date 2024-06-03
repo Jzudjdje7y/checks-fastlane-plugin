@@ -1,0 +1,6 @@
+checks_app_scan(
+  account_id: "<your Checks account ID>",
+  app_id: "<your Checks app ID>",
+  binary_path: "<path to your .apk/.aab/.ipa>",
+  service_account_file_path: ENV["SERVICE_ACCOUNT_JSON"],
+)
